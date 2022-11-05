@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 1rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #e6e6e6;
+}
+#area-cabecalho{
+    padding: 0.9rem;
+    background-color: #f7b600;
+    text-align: center;
+}
+.logo-branco{
+    color: #fff;
+}
+
+#area-logo, #menu{
+    padding: 0.7rem;
+}
+#menu a{
+    text-decoration: none;
+    border-radius: 8px;
+}
+#menu a:link, #menu a:visited{
+    color: black;
+    padding: 8px 12px;
+}
+
+#menu a:hover{
+    background-color: black;
+    color: #f7b600;
+}
+
+#principal{
+    width: 57.5rem;
+    margin: 0.5rem auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#postagens{
+    width: 41.25rem;
+}
+
