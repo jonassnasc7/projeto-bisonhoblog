@@ -46,3 +46,69 @@ body{
     width: 41.25rem;
 }
 
+#lateral{
+    width: 15rem;
+    margin-left: 1.2rem;
+}
+
+.postagens{
+    padding: 1rem;
+    background-color: #fff;
+}
+.postagens-imagem{
+    width: 39rem;
+}
+.postagens-titulo{
+    color: #f7b600;
+}
+.postagens-data{
+    font-size: 0.8rem;
+    display: block;
+    padding-bottom: 0.8rem;
+}
+.postagens a{
+    text-decoration: none;
+}
+.postagens a:visited, .postagens a:link{
+    color: #f7b600;
+}
+.postagens a:hover{
+    text-decoration: underline;
+}
+
+.conteudo-lateral{
+    padding: 0.8rem;
+    margin-bottom: 0.7rem;
+    background-color: #fff;
+}
+.conteudo-lateral-titulo{
+    color: #565656;
+    background-color: #ccc;
+    padding: 3rem;
+}
+.texto-postagens-lateral{
+    font-size: 0.8rem;
+    padding: 0.3rem;
+}
+.conteudo-lateral{
+    text-decoration: none;
+    display: block;
+    margin: 0.2rem;
+    font-size: 0.8rem;
+}
+.conteudo-lateral a:visited, .conteudo-lateral a:link{
+    color: #f7b600;
+}
+.conteudo-lateral a:hover{
+    text-decoration: underline;
+}
+
+footer{
+    width: 57.5rem;
+    margin: 9px auto;
+}
+
+footer p{
+    text-align: center;
+    background-color: #ccc;
+}
